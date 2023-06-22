@@ -1,237 +1,244 @@
-    .cont{
-        background: url("../picture/fon.png") 0 0 no-repeat;
-        width: 100%;
-        height: 765px;
-        background-position: center;
-    }
-    .header{
-        display: flex;
-        width: 1440px;
-        height: 60px;
-        background: rgba(242, 120, 92, 0.7);
-        box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
-        margin: auto;
-        padding-top: 30px;
-    }
-    #nameTravelPortal{
-        color:white;
-        font-size: 32px;
-        font-family: 'Marga';
-        padding-right: 200px;
-        padding-left: 10px;
-        background-position: center;
-    }
-    .headerHref{
-        color:white;
-        text-decoration: none;
-        padding-right: 40px;
-    }
-    div.cont img{
-        padding-left: 120px;
-    }
-    .buttonLogin{
-        width: 103px;
-        height: 41px;
-        border-radius: 10px;
-        background-color: #0D606F;
-        color: white;
-        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
-        margin-left: 90px;
-        border-style: solid;
-        border: none;
-    }
-    .textH1{
-        color:white;
-        margin-left: 400px;
-        font-size: 80px;
-        font-family: 'Aleo';
-    }
-    .textReceive{
-        color:white;
-        margin-left: 400px;
-        font-size: 24px;
-        margin-top: -30px;
-    }
-    .inputText{
-        color: #F2785C;
-        padding-left: 41px;
-        background: rgba(255, 255, 255, 0.7);
-        border: 0;
-        border-radius: 16px;
-        font-size: 22px;
-        width: 892px;
-        height: 95px;
-        margin-left: 400px;
-    }
-    .buttonStartPlanning{
-        width: 228px;
-        height: 59px;
-        border-radius: 10px;
-        background-color: #0D606F;
-        color: white;
-        font-size: 24px;
-        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
-        margin-left: -250px;
-        border-style: solid;
-        border: none;
-    }
-    .textH2{
-        color: #F2785C;
-        font-size: 40px;
-        text-align: center;
-        margin-top: 80px;
-        margin-bottom: 40px;
-    }
-    .iconTell{
-        width: 100px;
-        height: 100px;
-        background-color: #F2785C;
-        border-radius: 16px;
-        margin-bottom: 30px;
-        margin-left: 60px;
-    }
-    .iconShare{
-        width: 100px;
-        height: 100px;
-        background-color: #F2785C;
-        border-radius: 16px;
-        margin-bottom: 30px;
-        margin-left: 50px;
-    }
-    .iconGive{
-        width: 100px;
-        height: 100px;
-        background-color: #F2785C;
-        border-radius: 16px;
-        margin-bottom: 30px;
-        margin-left: 90px;
-    }
-    .iconTell img{
-        margin: 25px;
-    }
-    .iconShare img{
-        margin: 25px;
-    }
-    .iconGive img{
-        margin-top: 25px;
-        margin-left: 20px;
-    }
-    .textTell{
-        color:#0D606F;
-        font-size: 20px;
-    }
-    
-    .boxIcon{
-        width: 1440px;
-        margin: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .textPopular{
-        color: #F2785C;
-        text-align: center;
-        text-shadow: 1px 0 1px #000, 
-        0 1px 1px #000, 
-        -1px 0 1px #000, 
-        0 -1px 1px #000;
-        font-size: 40px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        margin-top: 90px;
-        margin-bottom: 50px;
-    }
-    .slayder{
-        width: 1440px;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 24px;
-    }
-    .circle{
-        background: #F2785C;
-        opacity: 0.5;
-        border-radius: 50%;
-        width: 20px;
-        height: 20px;
-    }
-    .circle.active{
-        opacity: 1;
-    }
-    .boxCircle{
-        display: flex;
-        width: 80px;
-        justify-content: space-between;
-        margin: auto;
-        margin-bottom: 40px;
-    }
-    .buttonFind{
-        width: 228px;
-        height: 59px;
-        border-radius: 10px;
-        background-color: #0D606F;
-        color: white;
-        font-size: 24px;
-        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
-        border-style: solid;
-        border: none;
-    }
-    .buttonFindMargin{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 80px;
-    }
-    .podlozhka{
-        width: 1445px;
-        height: 1270px;
-        background-color: rgba(255, 255, 255, 0.7);
-        display: flex;
-        justify-content: center;
-    }
-    .fonPriroda{
-        width: 1442px;
-        height: 1331px;
-        background-image: url(../picture/Rectangle_33.png);
-        margin: auto;
-    }
-    .boxPictureTextColumn{
-        margin-top: 40px;
-    }
-    .boxPicture{
-        display: flex;
-        justify-content: center;
-    }
-    .textH3{
-        font-size: 35px;
-        color:#0D606F;
-        margin-top: -5px;
-    }
-    .text{
-        color: #0D606F;
-        font-size: 20px;
-        margin-bottom: 30px;
-        width: 760px;
-    }
-    #imgPadding{
-        margin-bottom: 30px;
-        margin-right: 40px;
-    }
-    .texthref{
-        color: #0D606F;
-    }
-    .textFooter{
-        color: white;
-        font-size: 16px;
-        text-align: center;
-        margin-top: 20px;
-    }
-    .iconsFooter{
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-end;
-        margin-top: -20px;
-        margin-right: 100px;
-    }
-    #iconsFoot{
-        padding-right: 20px;
-    }
-    
+.cont{
+    background: url("../picture/fon.png") 0 0 no-repeat;
+    width: 100%;
+    height: 765px;
+    background-position: center;
+}
+.header{
+    display: flex;
+    width: 1440px;
+    height: 60px;
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+    margin: auto;
+    padding-top: 30px;
+}
+#nameTravelPortal{
+    font-family: 'Magra';
+    color:white;
+    font-size: 32px;
+    padding-right: 200px;
+    padding-left: 10px;
+    background-position: center;
+}
+.headerHref{
+    font-family: 'Red Hat Text';
+    color:white;
+    text-decoration: none;
+    padding-right: 40px;
+}
+div.cont img{
+    padding-left: 120px;
+}
+.buttonLogin{
+    font-family: 'Red Hat Text';
+    width: 103px;
+    height: 41px;
+    border-radius: 10px;
+    background-color: #0D606F;
+    color: white;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+    margin-left: 90px;
+    border-style: solid;
+    border: none;
+}
+.textH1{
+    font-family: 'Aleo';
+    color:white;
+    margin-left: 400px;
+    font-size: 80px;
+}
+.textReceive{
+    font-family: 'Aleo';
+    color:white;
+    margin-left: 400px;
+    font-size: 24px;
+    margin-top: -30px;
+}
+.inputText{
+    color: #F2785C;
+    padding-left: 41px;
+    background: rgba(255, 255, 255, 0.7);
+    border: 0;
+    border-radius: 16px;
+    font-size: 22px;
+    width: 892px;
+    height: 95px;
+    margin-left: 400px;
+}
+.buttonStartPlanning{
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    width: 228px;
+    height: 59px;
+    border-radius: 10px;
+    background-color: #0D606F;
+    color: white;
+    font-size: 24px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+    margin-left: -250px;
+    border-style: solid;
+    border: none;
+}
+.textH2{
+    font-family: 'Red Hat Text';
+    color: #F2785C;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.iconTell{
+    width: 100px;
+    height: 100px;
+    background-color: #F2785C;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+.iconShare{
+    width: 100px;
+    height: 100px;
+    background-color: #F2785C;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+.iconGive{
+    width: 100px;
+    height: 100px;
+    background-color: #F2785C;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+}
+.iconTell img{
+    margin: 25px;
+}
+.iconShare img{
+    margin: 25px;
+}
+.iconGive img{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.textTell{
+    font-family: 'Aleo';
+    color:#0D606F;
+    font-size: 20px;
+}
+
+.boxIcon{
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.textPopular{
+    color: #F2785C;
+    text-align: center;
+    text-shadow: 1px 0 1px #000, 
+    0 1px 1px #000, 
+    -1px 0 1px #000, 
+    0 -1px 1px #000;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.slayder{
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.circle{
+    background: #F2785C;
+    opacity: 0.5;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.circle.active{
+    opacity: 1;
+}
+.boxCircle{
+    display: flex;
+    width: 80px;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.buttonFind{
+    width: 228px;
+    height: 59px;
+    border-radius: 10px;
+    background-color: #0D606F;
+    color: white;
+    font-size: 24px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+    border-style: solid;
+    border: none;
+}
+.buttonFindMargin{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.podlozhka{
+    width: 1445px;
+    height: 1270px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+}
+.fonPriroda{
+    width: 1442px;
+    height: 1331px;
+    background-image: url(../picture/Rectangle_33.png);
+    margin: auto;
+}
+.boxPictureTextColumn{
+    margin-top: 40px;
+}
+.boxPicture{
+    display: flex;
+    justify-content: center;
+}
+.textH3{
+    font-size: 35px;
+    color:#0D606F;
+    margin-top: -5px;
+}
+.text{
+    color: #0D606F;
+    font-size: 20px;
+    margin-bottom: 30px;
+    width: 760px;
+}
+#imgPadding{
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+.texthref{
+    color: #0D606F;
+}
+.textFooter{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+.iconsFooter{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-top: -20px;
+    margin-right: 100px;
+}
+#iconsFoot{
+    padding-right: 20px;
+}
+
